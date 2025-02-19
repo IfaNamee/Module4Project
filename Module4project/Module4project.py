@@ -113,7 +113,7 @@ def main():
     delivery.show_menu("Coffee Drinks")
 
     # Sample order at 9:30 AM (peak morning hour)
-    order = ["Latte", "Bagel"]
+    order = ["Latte", "Bagel", "Chicken Wrap"]
 
     # Display receipt for the order
     delivery.print_order("ITEC Computer Lab", order, 9, has_student_id=True);
